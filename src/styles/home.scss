@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+body {
+    background: black;
+    font-family: 'Syne Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+}
+h2 {
+    margin-top: 3rem;
+    color:#640D14;
+}
+.navbar {
+    background-color: #250902;
+    a {
+        color: #fff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+.jumbotron{
+background-image: url("https://images.pexels.com/photos/162389/lost-places-old-decay-ruin-162389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+height: 30rem;
+font-family: 'Syne Mono', monospace;
+color: rgba(255, 255, 255, 0.507);
+/* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s;
+}
+.jumbotron:hover {
+  box-shadow: 0 0 7rem rgba(88, 9, 3, 0.767) inset;
+  border: 1px solid rgba(88, 9, 3, 0.918);
+  color: rgb(248, 120, 120);
+}
+.headerTitle {
+    font-size: 8rem;
+  color: rgba(255, 255, 255, 0.753);
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  text-shadow: rgba(128, 14, 20, 0.336) 0 -2px
+}
+.card {
+    width: 18rem;
+    background-color: #250902;
+    border-color: #800E13;
+    color: lightgrey;
+    margin: 1rem 0.4rem;
+}
+.card-img-top {
+    height: 10rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #640D14;
+    border-color: #800E13;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #640D14;
+    border-color: #640D14;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #640D14;
+    border-color: rgb(114, 16, 24);
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #640D14;
+    border-color: #800E13;
+    box-shadow: 0 0 0 0.2rem rgba(128, 14, 20, 0.493);
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(128, 14, 20, 0.5);
+}
+footer {
+    color: #fff;
+}
